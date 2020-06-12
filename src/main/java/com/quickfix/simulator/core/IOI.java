@@ -1,7 +1,5 @@
 /*
  * File     : IOI.java
- *
- * Author   : Zoltan Feledy
  * 
  * Contents : This class is a basic IOI object that is used to create
  *            and store ioi details.

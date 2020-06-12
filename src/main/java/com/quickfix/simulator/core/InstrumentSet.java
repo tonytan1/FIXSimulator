@@ -1,7 +1,5 @@
 /*
  * File     : InstrumentSet.java
- *
- * Author   : Zoltan Feledy
  * 
  * Contents : This class is a Set of Instrument objects with a utility 
  *            methods to to access the individual instruments.

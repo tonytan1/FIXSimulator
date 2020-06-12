@@ -1,7 +1,7 @@
 /*
  * File     : Order.java
  *
- * Author   : Zoltan Feledy
+ 
  * 
  * Contents : This class is a basic Order object that is used to 
  *            create and store order details.
@@ -12,12 +12,12 @@ package com.quickfix.simulator.core;
 
 import quickfix.FieldNotFound;
 import quickfix.field.ClOrdID;
+import quickfix.field.IDSource;
 import quickfix.field.OrdType;
 import quickfix.field.OrderQty;
 import quickfix.field.OrigClOrdID;
 import quickfix.field.Price;
 import quickfix.field.SecurityID;
-import quickfix.field.IDSource;
 import quickfix.field.Side;
 import quickfix.field.Symbol;
 import quickfix.field.TimeInForce;

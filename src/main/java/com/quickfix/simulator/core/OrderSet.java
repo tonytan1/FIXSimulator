@@ -1,7 +1,7 @@
 /*
  * File     : OrderSet.java
  *
- * Author   : Zoltan Feledy
+ 
  * 
  * Contents : This class is a Set of Order objects with a utility 
  *            methods to access the individual orders.

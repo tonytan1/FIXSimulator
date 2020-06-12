@@ -1,7 +1,5 @@
 /*
  * File     : FIXimulator.java
- *
- * Author   : Zoltan Feledy
  * 
  * Contents : This is the class that initializes the application.
  * 

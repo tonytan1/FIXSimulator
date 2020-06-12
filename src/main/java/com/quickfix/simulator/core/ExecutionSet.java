@@ -1,7 +1,5 @@
 /*
  * File     : ExecutionSet.java
- *
- * Author   : Zoltan Feledy
  * 
  * Contents : This class is a Set of Execution objects with a utility 
  *            methods toto access the individual executions.

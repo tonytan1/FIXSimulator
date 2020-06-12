@@ -1,7 +1,5 @@
 /*
  * File     : Execution.java
- *
- * Author   : Zoltan Feledy
  * 
  * Contents : This class is a basic Execution object that is used to 
  *            create and store execution details.

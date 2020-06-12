@@ -1,7 +1,5 @@
 /*
  * File     : IOIset.java
- *
- * Author   : Zoltan Feledy
  * 
  * Contents : This class is a Set of IOI objects with a utility
  *            methods to access the individual iois.

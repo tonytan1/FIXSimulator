@@ -1,7 +1,7 @@
 /*
  * File     : LogMessageSet.java
  *
- * Author   : Zoltan Feledy
+ 
  * 
  * Contents : This class is a Set of LogMessage objects with utility 
  *            methods to access the individual messages.
@@ -10,6 +10,7 @@
 package com.quickfix.simulator.core;
 
 import java.util.ArrayList;
+
 import quickfix.DataDictionary;
 import quickfix.Message;
 import quickfix.SessionID;

@@ -1,7 +1,5 @@
 /*
  * File     : FIXimulatorApplication.java
- *
- * Author   : Zoltan Feledy
  * 
  * Contents : This is the application class that contains all the 
  *             logic for message handling.            
@@ -26,6 +24,7 @@ import quickfix.DoNotSend;
 import quickfix.FieldNotFound;
 import quickfix.IncorrectDataFormat;
 import quickfix.IncorrectTagValue;
+import quickfix.Message;
 import quickfix.MessageCracker;
 import quickfix.RejectLogon;
 import quickfix.Session;
@@ -43,11 +42,11 @@ import quickfix.field.ExecRefID;
 import quickfix.field.ExecTransType;
 import quickfix.field.ExecType;
 import quickfix.field.IDSource;
+import quickfix.field.IOIID;
 import quickfix.field.IOINaturalFlag;
 import quickfix.field.IOIRefID;
 import quickfix.field.IOIShares;
 import quickfix.field.IOITransType;
-import quickfix.field.IOIID;
 import quickfix.field.LastPx;
 import quickfix.field.LastShares;
 import quickfix.field.LeavesQty;
@@ -64,10 +63,9 @@ import quickfix.field.Side;
 import quickfix.field.Symbol;
 import quickfix.field.ValidUntilTime;
 import quickfix.fix42.Message.Header;
-import quickfix.Message;
 
 public class FIXimulatorApplication extends MessageCracker implements Application {
-    private volatile Status connectedStatus;
+    private volatile Status connectedStatus = Status.UNKNOWN;
     private volatile Status ioiSenderStatus = Status.UNKNOWN;
     private volatile Status executorStatus = Status.UNKNOWN;
     private volatile boolean connected;
